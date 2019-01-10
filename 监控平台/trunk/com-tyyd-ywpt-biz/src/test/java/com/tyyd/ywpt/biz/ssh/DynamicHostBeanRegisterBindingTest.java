@@ -89,20 +89,20 @@ public class DynamicHostBeanRegisterBindingTest extends BaseBizTest {
 	private HostConfigDomain getLinuxExam(){
 		HostConfigDomain domain = new HostConfigDomain();
 		domain.setHostId("1");
-		domain.setIpAddr("192.168.10.49");
-		domain.setHostName("syjz-db-master.189read.com");
+		domain.setIpAddr("xxxxx");
+		domain.setHostName("xxxxx");
 		domain.setIsHostCollect("Y");
-		domain.setUserAccount("monitor");
-		domain.setUserPasswd("monitor");
+		domain.setUserAccount("xxx");
+		domain.setUserPasswd("xxx");
 		return domain;
 	}
 	
 	
 	private Map<String,Object> getLinuxMap(){
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("connectIpAddr", "192.168.10.49");
-		map.put("connectUserName", "monitor");
-		map.put("connectPassword", "monitor");
+		map.put("connectIpAddr", "xxx");
+		map.put("connectUserName", "xxx");
+		map.put("connectPassword", "xxx");
 		map.put("connectPort", 22);
 		return map;
 	}
@@ -110,20 +110,20 @@ public class DynamicHostBeanRegisterBindingTest extends BaseBizTest {
 	private HostConfigDomain getAixExam(){
 		HostConfigDomain domain = new HostConfigDomain();
 		domain.setHostId("2");
-		domain.setIpAddr("192.168.10.17");
-		domain.setHostName("SJYD_SJK_1");
+		domain.setIpAddr("xxx");
+		domain.setHostName("xxx");
 		domain.setIsHostCollect("Y");
-		domain.setUserAccount("monitor");
-		domain.setUserPasswd("monitor");
+		domain.setUserAccount("xxx");
+		domain.setUserPasswd("xxx");
 		return domain;
 	}
 	
 	
 	private Map<String,Object> getAixMap(){
 		Map<String,Object> map = new HashMap<String,Object>();
-		map.put("connectIpAddr", "192.168.10.17");
-		map.put("connectUserName", "monitor");
-		map.put("connectPassword", "monitor");
+		map.put("connectIpAddr", "xxx");
+		map.put("connectUserName", "xxx");
+		map.put("connectPassword", "xxx");
 		map.put("connectPort", 22);
 		return map;
 	}
